@@ -4,6 +4,8 @@
 
 - [JavaScript Fundamentals #1](#javascript-fundamentals-1)
   - [The 7 Primitive Data Types](#the-7-primitive-data-types)
+- [JavaScript Fundamentals #2](#javascript-fundamentals-2)
+  - [Functions](#functions)
 
 # JavaScript Fundamentals #1
 
@@ -19,3 +21,36 @@
 
 **NOTE:**
 **JavaScript has dynamic typing:** We do _**not**_ have to manually define the data type of the value stored in a variable. Instead, data types are determined **automatically.**
+
+# JavaScript Fundamentals #2
+
+## Functions
+
+**👉 Function Declaration:**
+Function that can be used before it's declared
+
+```js
+function calcAge(birthYear) {
+  return 2037 - birthYear
+}
+```
+
+**👉 Function Expression:**
+Essentially a function _value_ stored in a variable
+
+```js
+function calcAge = function (birthYear) {
+  return 2037 - birthYear
+}
+```
+
+**👉 Arrow Function:**
+Great for a quick one-line functions
+
+```js
+const calcAge = birthYear => return 2037 - birthYear
+```
+
+👆 Three different ways of writting functions, but they all work
+in a similar way receive **input** data, **transform** data, and then
+**output** data.
