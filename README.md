@@ -39,7 +39,7 @@ function calcAge(birthYear) {
 Essentially a function _value_ stored in a variable
 
 ```js
-function calcAge = function (birthYear) {
+const calcAge = function (birthYear) {
   return 2037 - birthYear
 }
 ```
