@@ -6,6 +6,7 @@
   - [The 7 Primitive Data Types](#the-7-primitive-data-types)
 - [JavaScript Fundamentals #2](#javascript-fundamentals-2)
   - [Functions](#functions)
+- [JavaScript In The Browser (DOM)](#javascript-in-the-browser-dom)
 
 # JavaScript Fundamentals #1
 
@@ -54,3 +55,9 @@ const calcAge = birthYear => return 2037 - birthYear
 👆 Three different ways of writting functions, but they all work
 in a similar way receive **input** data, **transform** data, and then
 **output** data.
+
+# JavaScript In The Browser (DOM)
+
+**What is the DOM?**
+**DOCUMENT OBJECT MODEL:** Structured representation of HTML documents.
+Allows JavaScript to access HTML elements and styles to manipulate them.
