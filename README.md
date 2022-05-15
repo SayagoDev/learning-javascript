@@ -1,4 +1,4 @@
-# Learn JavaScript <!-- omit in toc -->
+# Learning JavaScript <!-- omit in toc -->
 
 ## Table of Contents: <!-- omit in toc -->
 
