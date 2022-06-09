@@ -6,7 +6,7 @@
   - [The 7 Primitive Data Types](#the-7-primitive-data-types)
 - [JavaScript Fundamentals #2](#javascript-fundamentals-2)
   - [Functions](#functions)
-- [JavaScript In The Browser (DOM)](#javascript-in-the-browser-dom)
+- [How JavaScript Works Behind the Scenes](#how-javascript-works-behind-the-scenes)
 
 # JavaScript Fundamentals #1
 
@@ -21,7 +21,8 @@
 7. **BigInt (ES2020):** Larger integers than the Number type can hold
 
 **NOTE:**
-**JavaScript has dynamic typing:** We do _**not**_ have to manually define the data type of the value stored in a variable. Instead, data types are determined **automatically.**
+**JavaScript has dynamic typing:** We do _**not**_ have to manually define the data type of the value stored in a variable.
+Instead, data types are determined **automatically.**
 
 # JavaScript Fundamentals #2
 
@@ -56,8 +57,5 @@ const calcAge = birthYear => return 2037 - birthYear
 in a similar way receive **input** data, **transform** data, and then
 **output** data.
 
-# JavaScript In The Browser (DOM)
+# How JavaScript Works Behind the Scenes
 
-**What is the DOM?**
-**DOCUMENT OBJECT MODEL:** Structured representation of HTML documents.
-Allows JavaScript to access HTML elements and styles to manipulate them.
